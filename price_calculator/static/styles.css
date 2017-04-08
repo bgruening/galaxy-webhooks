@@ -1,0 +1,102 @@
+#price_calculator {
+    border: 1px solid #009688;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price_calculator-header {
+    color: #fff;
+    background: #009688;
+    border-bottom: 1px solid #009688;
+    padding: 10px 0;
+}
+
+#price_calculator-providers {
+    display: none;
+}
+
+#price_calculator-providers select {
+    text-align-last: center;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#price_calculator-providers select:focus {
+    outline: none;
+}
+
+.control-container {
+    margin-bottom: 15px;
+}
+
+.control-units {
+    border-left: 0;
+}
+
+#price_calculator-controls {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#calculateBtn {
+    margin-bottom: 20px;
+}
+
+#calculateBtn:focus {
+    outline: none;
+}
+
+#price_calculator-total-price {
+    color: #fff;
+    background: #009688;
+    font-size: 14px;
+    margin-bottom: -10px;
+    padding: 15px 0 25px;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.total-price-currency {
+    color: #b2dfdb;
+    font-weight: 300;
+    margin-left: -3px;
+}
+
+#amazon-total-price {
+    color: #b2dfdb;
+    font-weight: 300;
+}
+
+.load-error {
+    padding: 17px;
+}
+
+#price_calculator-loader {
+    border: 3px solid #e0f2f1;
+    border-top: 3px solid #009688;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1.5s linear infinite;
+    margin: 15px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.form-control:focus {
+    border-color: #009688;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,150,136,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,150,136,0.6);
+}

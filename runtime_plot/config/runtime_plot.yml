@@ -1,0 +1,4 @@
+name: runtime_plot
+type:
+  - tool
+activate: true

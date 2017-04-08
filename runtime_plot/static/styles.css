@@ -1,0 +1,54 @@
+#runtime_plot {
+    border: 1px solid #52697d;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#runtime_plot-header {
+    color: #fff;
+    background: #52697d;
+    border-bottom: 1px solid #52697d;
+    padding: 10px 0;
+}
+
+#chart {
+    padding: 10px 0;
+    height: 400px;
+    width: 100%;
+    display: none;
+}
+
+#linechart {
+    padding: 10px 0;
+    height: 400px;
+    width: 100%;
+    display: none;
+}
+
+.load-error {
+    padding: 17px;
+}
+
+#runtime_plot-loader {
+    border: 3px solid #cfd8dc;
+    border-top: 3px solid #52697d;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1.5s linear infinite;
+    margin: 15px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.canvasjs-chart-credit {
+    display: none !important;
+}
